@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    height: max-content;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+span{
+    color: #fff;
+    font-size: 1.5rem;
+    margin: auto;
+}

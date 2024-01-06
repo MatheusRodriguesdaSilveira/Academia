@@ -1,0 +1,115 @@
+@import url("./header.css");@import url("./header.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: radial-gradient(circle, rgba(255, 136, 0, 0.711) 0%, rgba(4,4,1,1) 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+section h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+section .name{
+    color: #ffffff;
+    font-size: 2.8rem;
+    margin: 0 auto;
+}
+
+.sectionContainer{
+    max-width: 1535px;
+    height: max-content;
+    margin: 100px auto; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+
+.sectionContainer p{
+    font-size: 1.2rem;
+}
+
+.info__box__1{
+    max-width: 280px;
+    height: max-content;
+    padding: 20px;
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: rgb(143, 143, 143);
+}
+
+.info__box__2{
+    max-width: 280px;
+    height: 150px;
+    padding: 20px;
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+form{
+    width: 500px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #252525;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 1em black;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+form label{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.inserir{
+    font-size: 1.3rem;
+    padding: 5px;
+    border: none;
+    background-color: #FFD700;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.inserir:hover{
+    background-color: #c0a300;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 518px){
+    .sectionContainer{
+        display: block;
+    }
+
+    form{
+        width: auto;
+    }
+}

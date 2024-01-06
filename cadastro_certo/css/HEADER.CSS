@@ -1,0 +1,73 @@
+@import url("./footer.css");
+
+header{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif;
+
+
+header nav{
+    max-width: 1500px;
+    height: max-content;
+	margin: auto;
+}
+
+header ul{
+    list-style: none;
+}
+
+nav {
+	width: 110%;
+	padding: -3px 8%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+nav .logo{
+	float: left;
+	margin-left: 2px;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 20px 13px;
+	border-radius: 3px;
+	font-weight: 770;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	color: darkorange;
+	transition: .5s;
+}
+header a.active,header  a:hover {
+	background-color: rgba(0, 0, 0, 0.281);
+	transition: .5s;
+}
+
+header .logo:hover{
+	background-color: rgba(0, 0, 0, 0);
+}
